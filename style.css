@@ -11,6 +11,19 @@ body {
 .instruction {
     font-size: 60%;
     text-align: left;
-    
 
+
+}
+
+/* Circle CSS code from the following website:
+https://www.w3schools.com/howto/howto_css_circles.asp
+*/
+
+.circle {
+    height: 25px;
+    width: 25px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
 }
