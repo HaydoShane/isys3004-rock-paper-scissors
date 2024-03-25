@@ -20,10 +20,13 @@ https://www.w3schools.com/howto/howto_css_circles.asp
 */
 
 .circle {
-    color: white;
-    background-color: red;
-    border-radius: 50%;
-    display: inline-block;
-    padding: 5px 20px;
-    font-size: 65%;
+   background: red;
+   color: white;
+   padding: 5px, 20px;
+   border-radius: 50%;
+   font-size: 65px;
+}
+
+.circle:hover {
+    background-color:grey
 }
