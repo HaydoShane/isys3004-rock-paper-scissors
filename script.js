@@ -36,3 +36,4 @@ function play(user) {
     alert(myMessage)
     SyntaxError(myMessage)
 }
+
