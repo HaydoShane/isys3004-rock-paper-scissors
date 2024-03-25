@@ -7,7 +7,7 @@ let draws = 0;
 https://code-boxx.com/javascript-text-to-speech/
 */
 
-function SyntaxError(theMessage){
+function say(theMessage){
     let msg = new SpeechSynthesisUtterance(theMessage);
     speechSynthesis.speak(msg);
 }
@@ -34,6 +34,5 @@ function play(user) {
     "\n" + losses + "losses" +
     "\n" + draws + "draws");
     alert(myMessage)
-    SyntaxError(myMessage)
+    say(myMessage)
 }
-
